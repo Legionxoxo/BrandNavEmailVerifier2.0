@@ -35,7 +35,7 @@ Follow these steps to get the application running:
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/Legionxoxo/email-verifier.git
+git clone https://github.com/BrandNav-io/BrandNavEmailVerifier2.0.git
 cd email-verifier
 ```
 
