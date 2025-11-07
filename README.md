@@ -121,12 +121,12 @@ docker compose logs -f
 
 ## Data Persistence
 
-The application uses Docker volumes to persist data:
-- Database files containing all verification results and history
-- Uploaded CSV files
-- Application logs
+The application uses bind mounts to persist data on your host machine in the `.data` directory:
+- `.data/db` - SQLite database files containing all verification results and history
+- `.data/csv` - Uploaded CSV files
+- `.data/logs` - Application logs
 
-Your data remains safe across container restarts.
+Your data is stored directly on your host machine and remains safe across container restarts.
 
 ## Documentation
 
