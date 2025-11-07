@@ -147,7 +147,7 @@ Want to verify emails programmatically using API keys? We provide comprehensive 
 6. Then use the **Get Verification Status** or **Get Verification Results** requests, which will automatically use the saved `verification_request_id`
 7. The collection includes examples for submitting verifications, checking status, getting results, and viewing history
 
-📖 **[API Programmatic Verification Guide](./documentations/api-programmatic-verification-guide.md)**
+📖 **[API Reference Documentation](./documentations/API_REFERENCE.md)**
 
 This guide covers:
 - API key authentication and management
@@ -157,7 +157,7 @@ This guide covers:
 - Pagination for large result sets
 - Complete field descriptions and result interpretation
 - Error handling and best practices
-- Code examples in Node.js, Python, PHP, and cURL
+- Code examples with cURL
 - FAQ and troubleshooting
 
 ### System Architecture
