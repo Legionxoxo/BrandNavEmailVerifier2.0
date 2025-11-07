@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(.gitignore)",
+      "Bash(curl:*)",
+      "Bash(node scripts/fetchDisposableList.js:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
