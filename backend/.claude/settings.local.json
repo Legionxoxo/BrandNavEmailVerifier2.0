@@ -4,7 +4,13 @@
       "Bash(cat:*)",
       "Bash(.gitignore)",
       "Bash(curl:*)",
-      "Bash(node scripts/fetchDisposableList.js:*)"
+      "Bash(node scripts/fetchDisposableList.js:*)",
+      "Bash(docker exec:*)",
+      "Bash(docker logs:*)",
+      "Bash(docker compose:*)",
+      "Bash(ls:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

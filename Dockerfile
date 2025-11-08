@@ -16,6 +16,7 @@ RUN apk add --no-cache python3 make g++ sqlite
 # This is done separately to leverage Docker layer caching
 COPY backend/package*.json ./backend/
 COPY frontend/package*.json ./frontend/
+COPY backend/.env ./backend/
 
 # Install backend dependencies
 WORKDIR /app/backend

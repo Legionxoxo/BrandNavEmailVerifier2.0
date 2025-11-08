@@ -41,24 +41,7 @@ const helmetConfig = /** @type {import('express').RequestHandler} */ (
  * Configure CORS for cross-origin requests
  */
 const corsConfig = cors({
-	origin: function (origin, callback) {
-		// Allow requests with no origin (same-origin, mobile apps, Postman, etc.)
-		if (!origin) return callback(null, true);
-
-		// In production, replace with your actual frontend domains
-		const allowedOrigins = [
-			'http://localhost:3000',
-			'http://localhost:5000',
-			'http://localhost:5173',
-			CORS_ORIGIN,
-		].filter(Boolean); // Remove falsy values
-
-		if (allowedOrigins.includes(origin)) {
-			callback(null, true);
-		} else {
-			callback(new Error('Not allowed by CORS'));
-		}
-	},
+	origin: true, // Allow ALL origins
 	credentials: true,
 	optionsSuccessStatus: 200,
 	allowedHeaders: ['Content-Type', 'Authorization'],
